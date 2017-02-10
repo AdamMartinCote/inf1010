@@ -1,0 +1,11 @@
+#1 Agrégation. Les dresseurs existent dans le main, lorsqu'on retire un dresseur de Polyland(le
+    monde), il existe toujours et pourait être ajouté de nouveau.
+    
+#2 Agrégation. Les créatures existent aussi dans le main. La suppression de Polyland ne supprime pas
+    les créatures du main.
+    
+#3 Composition. Les créatures existent dans le main mais chaque dresseurs possède ses propres 
+copies. Ces copies disparaissent en même temps que le dresseur.
+
+#4 Agrégation. Encore une fois, les Pouvoirs sont crées dans le main et la suppression d'une
+    créature ne supprime pas le Pouvoir.

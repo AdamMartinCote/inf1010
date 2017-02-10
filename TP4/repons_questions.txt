@@ -1,0 +1,13 @@
+#1
+La classe attaqueMagique est abstraite, car elle comporte une méthode virtuelle 
+pure ( = 0), il est donc impossible de créer une instance de cette classe.
+
+#2
+méthode attaquer: pour obtenir le comportement décris pour la créature attaqueMagique
+le destructeur : bonne pratique dans un cas de polymorphisme
+
+#3
+Dans une situation de polymorphisme, on ne peut savoir si un pointeur ou un conteneur
+de type "classe mère", pointe ou contient une classe mère ou une classe fille. On veut 
+donc utiliser le polymorphisme (virtual) pour appeler le destructeur correspondant à
+la nature réelles de l'objet.

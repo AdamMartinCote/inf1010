@@ -1,0 +1,13 @@
+#ifndef EXCEPTIONATTAQUEECHOUEE_H
+#define EXCEPTIONATTAQUEECHOUEE_H
+
+#include <stdexcept>
+
+class ExceptionAttaqueEchouee : public std::runtime_error
+{
+public:
+  ExceptionAttaqueEchouee(string what_args = "") : std::runtime_error(what_args)
+  {}
+};
+
+#endif // EXCEPTIONATTAQUEECHOUEE_H

@@ -1,0 +1,14 @@
+Réponses aux questions
+
+1/Le constructeur par copie et l’opérateur surchargé '=' servent à copier des objets de la classe. 
+Ils réduisent le coût des opérations de création et d’affectation.
+
+2/Nous devons absolument les implémenter lorsqu’on veut faciliter la création de deux objets ayant 
+les « mêmes » données en attributs mais qui ensuite peuvent agir différemment.
+
+Il faut aussi appliquer la règle de trois : si le constructeur de copie, l'opérateur d'assignation 
+ou le destructeur est redéfini, il est généralement préférable de redéfinir les 2 autres.
+
+3/La différence entre le constructeur par copie et l’opérateur = est que le constructeur par copie 
+crée un nouvel objet qui copie l’objet mis en paramètre et que l’opérateur surchargé = affecté à un 
+objet déjà crée les attributs d’un autre objet.
